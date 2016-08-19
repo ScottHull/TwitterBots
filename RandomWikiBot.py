@@ -1,6 +1,9 @@
 import urllib2, time, twython, BeautifulSoup, datetime, sys
 from pytz import timezone
 
+#this bot generates a random Wikipedia link and tweets both the title of the article and the link
+#this bot runs hourly if left open
+
 APP_KEY = '#--INSERT APP KEY--'
 APP_SECRET = '#--INSERT APP SECRET KEY--'
 twitter = twython.Twython(APP_KEY, APP_SECRET, oauth_token='#--INSERT OAUTH TOKEN', oauth_token_secret='#--INSERT OAUTH TOKEN SECRET--')
